@@ -1,40 +1,82 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">
+  React a11y
+</h1>
 
-## Getting Started
+<p align="center">
+  <a href="#description">Description</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#requirements">Requirements</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#usage">Usage</a>
+</p>
+<br />
+<p align="center">
+  <img src="https://img.shields.io/static/v1?label=license&message=MIT" alt="License">
+  <img src="https://img.shields.io/github/repo-size/Lissone/react-a11y" alt="Repo size" />
+  <img src="https://img.shields.io/github/languages/top/Lissone/react-a11y" alt="Top lang" />
+  <img src="https://img.shields.io/github/stars/Lissone/react-a11y" alt="Stars repo" />
+  <img src="https://img.shields.io/github/forks/Lissone/react-a11y" alt="Forks repo" />
+  <img src="https://img.shields.io/github/issues-pr/Lissone/react-a11y" alt="Pull requests" >
+  <img src="https://img.shields.io/github/last-commit/Lissone/react-a11y" alt="Last commit" />
+</p>
 
-First, run the development server:
+<p align="center">
+  <a href="https://github.com/Lissone/react-a11y/issues">Report bug</a>
+  ·
+  <a href="https://github.com/Lissone/react-a11y/issues">Request feature</a>
+</p>
+
+<br />
+
+## Description
+
+This project was developed using React and NextJs 14 with the primary goal of deepening my understanding of web accessibility by adhering to the principles of the WCAG (Web Content Accessibility Guidelines).
+
+## Requirements
+
+- [Nodejs](https://nodejs.org/en/)
+- [Npm](https://www.npmjs.com/)
+- [Pnpm](https://pnpm.io)
+
+## Technologies
+
+- React
+- NextJs 14
+- Typescript
+- Axe Core
+- Eslint
+  - eslint-config-next
+
+## Usage
+
+You can clone it on your pc using the command:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/Lissone/react-a11y.git
+cd react-a11y
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Install dependencies using:
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+```bash
+pnpm install
+#or
+npm install
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Run application:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```bash
+pnpm dev
+#or
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## License
 
-## Learn More
+Distributed under the MIT License. See `LICENSE` for more information.
 
-To learn more about Next.js, take a look at the following resources:
+<h4 align="center">
+  Made with ❤️ by <a href="https://github.com/Lissone" target="_blank">Lissone</a>
+</h4>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<hr />
